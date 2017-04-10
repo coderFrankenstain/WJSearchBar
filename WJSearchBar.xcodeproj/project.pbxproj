@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4091E0A1E962BCA005C5D7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E091E962BCA005C5D7A /* main.m */; };
+		E4091E0D1E962BCA005C5D7A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E0C1E962BCA005C5D7A /* AppDelegate.m */; };
+		E4091E101E962BCA005C5D7A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E0F1E962BCA005C5D7A /* ViewController.m */; };
+		E4091E131E962BCA005C5D7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4091E111E962BCA005C5D7A /* Main.storyboard */; };
+		E4091E161E962BCA005C5D7A /* WJSearchBar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4091E141E962BCA005C5D7A /* WJSearchBar.xcdatamodeld */; };
+		E4091E181E962BCA005C5D7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4091E171E962BCA005C5D7A /* Assets.xcassets */; };
+		E4091E1B1E962BCA005C5D7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4091E191E962BCA005C5D7A /* LaunchScreen.storyboard */; };
+		E4091E261E962BCA005C5D7A /* WJSearchBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E251E962BCA005C5D7A /* WJSearchBarTests.m */; };
+		E4091E311E962BCA005C5D7A /* WJSearchBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E301E962BCA005C5D7A /* WJSearchBarUITests.m */; };
+		E4091E431E962C4B005C5D7A /* WJSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E401E962C4B005C5D7A /* WJSearchBar.m */; };
+		E4091E471E962C8D005C5D7A /* WJSearchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E461E962C8D005C5D7A /* WJSearchButton.m */; };
+		E4091E4A1E962ED8005C5D7A /* WJToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E491E962ED8005C5D7A /* WJToolBox.m */; };
+		E4091E4D1E9636FC005C5D7A /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E4C1E9636FC005C5D7A /* mainViewController.m */; };
+		E4091E551E963957005C5D7A /* UIView+RMAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4091E541E963957005C5D7A /* UIView+RMAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4091E221E962BCA005C5D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4091DFD1E962BCA005C5D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4091E041E962BCA005C5D7A;
+			remoteInfo = WJSearchBar;
+		};
+		E4091E2D1E962BCA005C5D7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4091DFD1E962BCA005C5D7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4091E041E962BCA005C5D7A;
+			remoteInfo = WJSearchBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4091E051E962BCA005C5D7A /* WJSearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WJSearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4091E091E962BCA005C5D7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4091E0B1E962BCA005C5D7A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4091E0C1E962BCA005C5D7A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4091E0E1E962BCA005C5D7A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4091E0F1E962BCA005C5D7A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4091E121E962BCA005C5D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4091E151E962BCA005C5D7A /* WJSearchBar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WJSearchBar.xcdatamodel; sourceTree = "<group>"; };
+		E4091E171E962BCA005C5D7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4091E1A1E962BCA005C5D7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4091E1C1E962BCA005C5D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4091E211E962BCA005C5D7A /* WJSearchBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJSearchBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4091E251E962BCA005C5D7A /* WJSearchBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJSearchBarTests.m; sourceTree = "<group>"; };
+		E4091E271E962BCA005C5D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4091E2C1E962BCA005C5D7A /* WJSearchBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJSearchBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4091E301E962BCA005C5D7A /* WJSearchBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJSearchBarUITests.m; sourceTree = "<group>"; };
+		E4091E321E962BCA005C5D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4091E3F1E962C4B005C5D7A /* WJSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSearchBar.h; sourceTree = "<group>"; };
+		E4091E401E962C4B005C5D7A /* WJSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSearchBar.m; sourceTree = "<group>"; };
+		E4091E451E962C8D005C5D7A /* WJSearchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJSearchButton.h; sourceTree = "<group>"; };
+		E4091E461E962C8D005C5D7A /* WJSearchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJSearchButton.m; sourceTree = "<group>"; };
+		E4091E481E962ED8005C5D7A /* WJToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJToolBox.h; sourceTree = "<group>"; };
+		E4091E491E962ED8005C5D7A /* WJToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJToolBox.m; sourceTree = "<group>"; };
+		E4091E4B1E9636FC005C5D7A /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		E4091E4C1E9636FC005C5D7A /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		E4091E531E963957005C5D7A /* UIView+RMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RMAdditions.h"; sourceTree = "<group>"; };
+		E4091E541E963957005C5D7A /* UIView+RMAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RMAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4091E021E962BCA005C5D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4091E1E1E962BCA005C5D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4091E291E962BCA005C5D7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4091DFC1E962BCA005C5D7A = {
+			isa = PBXGroup;
+			children = (
+				E4091E071E962BCA005C5D7A /* WJSearchBar */,
+				E4091E241E962BCA005C5D7A /* WJSearchBarTests */,
+				E4091E2F1E962BCA005C5D7A /* WJSearchBarUITests */,
+				E4091E061E962BCA005C5D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4091E061E962BCA005C5D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4091E051E962BCA005C5D7A /* WJSearchBar.app */,
+				E4091E211E962BCA005C5D7A /* WJSearchBarTests.xctest */,
+				E4091E2C1E962BCA005C5D7A /* WJSearchBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4091E071E962BCA005C5D7A /* WJSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				E4091E3E1E962BD2005C5D7A /* WJSearchBar */,
+				E4091E0B1E962BCA005C5D7A /* AppDelegate.h */,
+				E4091E0C1E962BCA005C5D7A /* AppDelegate.m */,
+				E4091E0E1E962BCA005C5D7A /* ViewController.h */,
+				E4091E0F1E962BCA005C5D7A /* ViewController.m */,
+				E4091E4B1E9636FC005C5D7A /* mainViewController.h */,
+				E4091E4C1E9636FC005C5D7A /* mainViewController.m */,
+				E4091E111E962BCA005C5D7A /* Main.storyboard */,
+				E4091E171E962BCA005C5D7A /* Assets.xcassets */,
+				E4091E191E962BCA005C5D7A /* LaunchScreen.storyboard */,
+				E4091E1C1E962BCA005C5D7A /* Info.plist */,
+				E4091E141E962BCA005C5D7A /* WJSearchBar.xcdatamodeld */,
+				E4091E081E962BCA005C5D7A /* Supporting Files */,
+			);
+			path = WJSearchBar;
+			sourceTree = "<group>";
+		};
+		E4091E081E962BCA005C5D7A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4091E091E962BCA005C5D7A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4091E241E962BCA005C5D7A /* WJSearchBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4091E251E962BCA005C5D7A /* WJSearchBarTests.m */,
+				E4091E271E962BCA005C5D7A /* Info.plist */,
+			);
+			path = WJSearchBarTests;
+			sourceTree = "<group>";
+		};
+		E4091E2F1E962BCA005C5D7A /* WJSearchBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4091E301E962BCA005C5D7A /* WJSearchBarUITests.m */,
+				E4091E321E962BCA005C5D7A /* Info.plist */,
+			);
+			path = WJSearchBarUITests;
+			sourceTree = "<group>";
+		};
+		E4091E3E1E962BD2005C5D7A /* WJSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				E4091E531E963957005C5D7A /* UIView+RMAdditions.h */,
+				E4091E541E963957005C5D7A /* UIView+RMAdditions.m */,
+				E4091E4E1E96384C005C5D7A /* image */,
+				E4091E3F1E962C4B005C5D7A /* WJSearchBar.h */,
+				E4091E401E962C4B005C5D7A /* WJSearchBar.m */,
+				E4091E451E962C8D005C5D7A /* WJSearchButton.h */,
+				E4091E461E962C8D005C5D7A /* WJSearchButton.m */,
+				E4091E481E962ED8005C5D7A /* WJToolBox.h */,
+				E4091E491E962ED8005C5D7A /* WJToolBox.m */,
+			);
+			name = WJSearchBar;
+			sourceTree = "<group>";
+		};
+		E4091E4E1E96384C005C5D7A /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4091E041E962BCA005C5D7A /* WJSearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4091E351E962BCA005C5D7A /* Build configuration list for PBXNativeTarget "WJSearchBar" */;
+			buildPhases = (
+				E4091E011E962BCA005C5D7A /* Sources */,
+				E4091E021E962BCA005C5D7A /* Frameworks */,
+				E4091E031E962BCA005C5D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJSearchBar;
+			productName = WJSearchBar;
+			productReference = E4091E051E962BCA005C5D7A /* WJSearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4091E201E962BCA005C5D7A /* WJSearchBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4091E381E962BCA005C5D7A /* Build configuration list for PBXNativeTarget "WJSearchBarTests" */;
+			buildPhases = (
+				E4091E1D1E962BCA005C5D7A /* Sources */,
+				E4091E1E1E962BCA005C5D7A /* Frameworks */,
+				E4091E1F1E962BCA005C5D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4091E231E962BCA005C5D7A /* PBXTargetDependency */,
+			);
+			name = WJSearchBarTests;
+			productName = WJSearchBarTests;
+			productReference = E4091E211E962BCA005C5D7A /* WJSearchBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4091E2B1E962BCA005C5D7A /* WJSearchBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4091E3B1E962BCA005C5D7A /* Build configuration list for PBXNativeTarget "WJSearchBarUITests" */;
+			buildPhases = (
+				E4091E281E962BCA005C5D7A /* Sources */,
+				E4091E291E962BCA005C5D7A /* Frameworks */,
+				E4091E2A1E962BCA005C5D7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4091E2E1E962BCA005C5D7A /* PBXTargetDependency */,
+			);
+			name = WJSearchBarUITests;
+			productName = WJSearchBarUITests;
+			productReference = E4091E2C1E962BCA005C5D7A /* WJSearchBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4091DFD1E962BCA005C5D7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = weijun;
+				TargetAttributes = {
+					E4091E041E962BCA005C5D7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CRWBDQ7K3Q;
+						ProvisioningStyle = Automatic;
+					};
+					E4091E201E962BCA005C5D7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CRWBDQ7K3Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4091E041E962BCA005C5D7A;
+					};
+					E4091E2B1E962BCA005C5D7A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CRWBDQ7K3Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4091E041E962BCA005C5D7A;
+					};
+				};
+			};
+			buildConfigurationList = E4091E001E962BCA005C5D7A /* Build configuration list for PBXProject "WJSearchBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4091DFC1E962BCA005C5D7A;
+			productRefGroup = E4091E061E962BCA005C5D7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4091E041E962BCA005C5D7A /* WJSearchBar */,
+				E4091E201E962BCA005C5D7A /* WJSearchBarTests */,
+				E4091E2B1E962BCA005C5D7A /* WJSearchBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4091E031E962BCA005C5D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4091E1B1E962BCA005C5D7A /* LaunchScreen.storyboard in Resources */,
+				E4091E181E962BCA005C5D7A /* Assets.xcassets in Resources */,
+				E4091E131E962BCA005C5D7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4091E1F1E962BCA005C5D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4091E2A1E962BCA005C5D7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4091E011E962BCA005C5D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4091E471E962C8D005C5D7A /* WJSearchButton.m in Sources */,
+				E4091E551E963957005C5D7A /* UIView+RMAdditions.m in Sources */,
+				E4091E161E962BCA005C5D7A /* WJSearchBar.xcdatamodeld in Sources */,
+				E4091E431E962C4B005C5D7A /* WJSearchBar.m in Sources */,
+				E4091E101E962BCA005C5D7A /* ViewController.m in Sources */,
+				E4091E0D1E962BCA005C5D7A /* AppDelegate.m in Sources */,
+				E4091E4D1E9636FC005C5D7A /* mainViewController.m in Sources */,
+				E4091E4A1E962ED8005C5D7A /* WJToolBox.m in Sources */,
+				E4091E0A1E962BCA005C5D7A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4091E1D1E962BCA005C5D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4091E261E962BCA005C5D7A /* WJSearchBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4091E281E962BCA005C5D7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4091E311E962BCA005C5D7A /* WJSearchBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4091E231E962BCA005C5D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4091E041E962BCA005C5D7A /* WJSearchBar */;
+			targetProxy = E4091E221E962BCA005C5D7A /* PBXContainerItemProxy */;
+		};
+		E4091E2E1E962BCA005C5D7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4091E041E962BCA005C5D7A /* WJSearchBar */;
+			targetProxy = E4091E2D1E962BCA005C5D7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4091E111E962BCA005C5D7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4091E121E962BCA005C5D7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4091E191E962BCA005C5D7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4091E1A1E962BCA005C5D7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4091E331E962BCA005C5D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4091E341E962BCA005C5D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4091E361E962BCA005C5D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CRWBDQ7K3Q;
+				INFOPLIST_FILE = WJSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.searchBar.WJSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E4091E371E962BCA005C5D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CRWBDQ7K3Q;
+				INFOPLIST_FILE = WJSearchBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.searchBar.WJSearchBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E4091E391E962BCA005C5D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CRWBDQ7K3Q;
+				INFOPLIST_FILE = WJSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.searchBar.WJSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJSearchBar.app/WJSearchBar";
+			};
+			name = Debug;
+		};
+		E4091E3A1E962BCA005C5D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CRWBDQ7K3Q;
+				INFOPLIST_FILE = WJSearchBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.searchBar.WJSearchBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WJSearchBar.app/WJSearchBar";
+			};
+			name = Release;
+		};
+		E4091E3C1E962BCA005C5D7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CRWBDQ7K3Q;
+				INFOPLIST_FILE = WJSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.searchBar.WJSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJSearchBar;
+			};
+			name = Debug;
+		};
+		E4091E3D1E962BCA005C5D7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = CRWBDQ7K3Q;
+				INFOPLIST_FILE = WJSearchBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wj.searchBar.WJSearchBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WJSearchBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4091E001E962BCA005C5D7A /* Build configuration list for PBXProject "WJSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4091E331E962BCA005C5D7A /* Debug */,
+				E4091E341E962BCA005C5D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4091E351E962BCA005C5D7A /* Build configuration list for PBXNativeTarget "WJSearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4091E361E962BCA005C5D7A /* Debug */,
+				E4091E371E962BCA005C5D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4091E381E962BCA005C5D7A /* Build configuration list for PBXNativeTarget "WJSearchBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4091E391E962BCA005C5D7A /* Debug */,
+				E4091E3A1E962BCA005C5D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4091E3B1E962BCA005C5D7A /* Build configuration list for PBXNativeTarget "WJSearchBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4091E3C1E962BCA005C5D7A /* Debug */,
+				E4091E3D1E962BCA005C5D7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E4091E141E962BCA005C5D7A /* WJSearchBar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E4091E151E962BCA005C5D7A /* WJSearchBar.xcdatamodel */,
+			);
+			currentVersion = E4091E151E962BCA005C5D7A /* WJSearchBar.xcdatamodel */;
+			path = WJSearchBar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E4091DFD1E962BCA005C5D7A /* Project object */;
+}
